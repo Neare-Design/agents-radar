@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.228发布，CVP安全拦截引64条争议评论",
+      "OpenAI Codex Linux桌面版获952赞，Windows浏览器支持受阻",
+      "Gemini CLI子代理MAX_TURNS误报成P1级信任危机",
+      "Qwen Code六版本多端同步发布，WebShell平台化趋势明显",
+      "DeepSeek TUI v0.9.5回归，Auto-Review误拦截受关注",
+      "OpenCode子代理绕过deny规则成安全漏洞，社区热议"
+    ],
+    "ai-agents": [
+      "OpenClaw单日500 Issue/500 PR，无新版本但修复流动快",
+      "修复嵌入式runner中Anthropic签名重放失效问题",
+      "修复Subagent完成通知因会话锁定而投递失败",
+      "隔离Cron播报丢弃显式delivery.channel已修复",
+      "修复message_tool_only模式级联自回复不终止问题",
+      "Gateway堆内存无限增长导致cgroup OOM已修复"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4成基准模型，但无项目能全硬件稳定支撑",
+      "vLLM缺SM8x内核，140+评论无修复方案",
+      "llama.cpp单日6个release领跑迭代，修复EXAONE 4.5",
+      "Ollama曝SSRF等2个安全问题，社区压力最大",
+      "LiteLLM 24小时发7版，Rust重写启动Beta招募",
+      "Unsloth Desktop正式发布，修复后端CI全红"
+    ],
+    "ai-trending": [
+      "diagram-design单日+1616星，Agent技能包爆发",
+      "Anthropic官方anthropics/skills开源，新增485星",
+      "多智能体转向团队管理，prime-agent单日+1138星",
+      "RAG正图化：semantica +893星，Graphify达105k星",
+      "huggingface/transformers稳坐163,863星霸榜",
+      "ollama/ollama以178k星成本地LLM部署事实标准"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5发布，定位最具agentic能力的Sonnet",
+      "未发布Claude将黎曼ζ零点比例下界提至67.2%",
+      "Anthropic更新《Building Effective AI Agents》指南",
+      "OpenAI Daybreak模型登陆AWS，但本次仅获标题级记录",
+      "GPT-5.2等多模型更新集中企业渠道与安全治理",
+      "Claude水印技术引社区解读，关注内容可检测性"
+    ],
+    "ai-hn": [
+      "Meta Muse Glimmer获1182分，30B常驻本地受热议",
+      "研究窃取专有LLM推理链，API安全引发担忧",
+      "Needle2：14MB超小agentic模型，适配手机智能家居",
+      "“AI吞噬网页、网络记忆消失”被评社区情绪最高点",
+      "Zuckerberg抨击封闭AI，开源闭源之争再升温",
+      "OpenAI伦理负责人不到一年离职，治理焦虑浮现"
+    ],
+    "ai-arxiv": [
+      "跨语言安全对齐在低资源语言中失效，部署需警示",
+      "人机协作改进Grothendieck常数，AI数学研究里程碑",
+      "GUI视觉定位实现测试时自适应，突破部署冻结",
+      "数据归因揭示窄任务微调引发有害行为的机制",
+      "概率声明一致性验证问题开辟AI安全理论新方向",
+      "注意力路径脆弱性可作为LLM不确定性信号"
+    ],
+    "ai-hf": [
+      "MiniMax-H3视频生成家族霸榜，ComfyUI版下载679万",
+      "Kimi-K3以10,533点赞登顶多模态理解榜",
+      "DeepSeek-V4-Flash-0731下载破百万，量化版火速跟上",
+      "Meta Muse-Glimmer-30B获高度关注，主打常驻本地",
+      "LiquidAI LFM2.5-2.6B成轻量级LLM高性价比选择",
+      "百度Unlimited-OCR下载289万，生产力模型代表"
+    ],
+    "ai-community": [
+      "AWS总结AI代理可预测性7技巧，开发者关注度高",
+      "Claude新水印详解，AI文本可检测性成焦点",
+      "Pi Agent vs Claude Code 100小时实测对比引讨论",
+      "从零设计RAG架构，知识库应用构建指南获赞",
+      "AI记忆污染实验：verify-on-read方案引19条评论",
+      "AI代理把执行动作误当完成，可靠性问题受剖析"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Agentic execution trust is now the top CLI differentiator",
+      "Windows remains largest cross-tool AI CLI pain point",
+      "Security hardening accelerates with same-cycle CVE patches",
+      "Only 3 of 10 AI CLI tools shipped releases in 24h",
+      "Eight tools show activity despite low release velocity",
+      "Sandbox escape fixes land across multiple CLI repos"
+    ],
+    "ai-agents": [
+      "OpenClaw maintenance cycle: 500 issues, 500 PRs in 24h",
+      "217 PRs merged/closed and 150 issues closed in 24h",
+      "Delivery reliability dominates OpenClaw bug reports",
+      "Silent reply failures and truncation top issue cluster",
+      "No new OpenClaw release; work visible in PRs",
+      "High-severity items await maintainer product decisions"
+    ],
+    "ai-infra": [
+      "DeepSeek-V4-Flash/DSpark dominates inference across stack",
+      "Speculative decoding and KV-cache efficiency are key themes",
+      "vLLM ships v0.27.1 patch with DSpark Markov heads",
+      "Critical correctness bugs hit every major project",
+      "AMD/ROCm remains persistent weak spot across engines",
+      "LiteLLM shifts gateway toward Rust rewrite"
+    ],
+    "ai-trending": [
+      "Agent Skills become dominant GitHub distribution format",
+      "anthropics/skills official repo arrives among skill packs",
+      "PrimeIntellect-ai/prime-agent gains +1,138 stars today",
+      "stablyai/orca +875, paperclip +748 star surges",
+      "HKUDS/DeepTutor +812 stars for AI tutoring",
+      "OpenMontage +458 stars for agentic video production"
+    ],
+    "ai-web": [
+      "Claude Sonnet 5 positioned as default affordable agentic model",
+      "Claude improves Riemann zeta lower bound from 41.6% to 67.2%",
+      "Anthropic updates agent-building guidance to Managed Agents",
+      "OpenAI Daybreak now available on AWS",
+      "OpenAI posts two cyber announcements, no text captured",
+      "ChatGPT Business premium seats in OpenAI updates"
+    ],
+    "ai-hn": [
+      "Meta's Muse Glimmer 30B open model tops HN at 1,182 points",
+      "Docker sandboxes for AI agents spark discussion",
+      "Research: steal reasoning traces from proprietary LLM APIs",
+      "Needle2: 14MB agentic LLM for phones and wearables",
+      "HN debates internet's disappearing collective memory",
+      "Claude AI-generated content marking draws scrutiny"
+    ],
+    "ai-arxiv": [
+      "Cross-lingual safety alignment fails in low-resource languages",
+      "Paper: polynomial-time verification for probabilistic claims",
+      "Behavioral maps of 32 models across six families",
+      "Data attribution links emergent misalignment to persona features",
+      "Multilingual text-to-image benchmarks expose inconsistencies",
+      "Skill-compression strategy proposed for self-evolving agents"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 video ecosystem dominates trending models",
+      "Comfy-Org/MiniMax-H3 hits 6.8M downloads",
+      "DeepSeek-V4-Flash-0731 surpasses 1M downloads",
+      "Kimi-K3 leads week with 10,533 likes",
+      "Baidu Unlimited-OCR reaches 2.89M downloads",
+      "LiquidAI LFM2.5-2.6B approaches 94k downloads"
+    ],
+    "ai-community": [
+      "Dev.to and Lobste.rs focus on agent reliability and safety",
+      "Agents claim success after failure, war stories show",
+      "Claude watermark explained for developers",
+      "OpenAI Daybreak cybersecurity push discussed",
+      "GitHub README prompt-injection attacks highlighted",
+      "Practical evals and human approval layers emerge"
+    ]
+  }
+}
