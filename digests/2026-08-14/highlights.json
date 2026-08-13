@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 单日双版本，桌面同步议题获 123 赞",
+      "OpenAI Codex 一日三个 alpha，Windows 扩展失败引热议",
+      "Gemini CLI Subagent 误报成功，评估体系受关注",
+      "Copilot CLI 自定义推理强度，PR 偏少维护慢",
+      "Kimi Code CLI 无发版，三个活跃议题待关注",
+      "生态共识转向可信执行力，全家桶+开源补位"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h 500 Issue+500 PR，活跃度极高",
+      "静默回复失败 3 天 92 条评论，稳定性短板",
+      "PR 支持 Gemini 3.7 Flash，进官方模型目录",
+      "Docker 镜像周级自动重建，解决安全修复延迟",
+      "Web UI 全屏模式已实现，关闭需求 #122989",
+      "416 条待合并 PR 积压，合并瓶颈明显"
+    ],
+    "ai-infra": [
+      "llama.cpp 单日 8 个滚动版本，架构跟进最快",
+      "vLLM 端到端修复 DeepSeek-V4-Flash 稀疏 MLA",
+      "Kimi-K3 FP8 MLA 解除 heads 限制，TP8 提速",
+      "LiteLLM v1.98.0-dev.2 发布，新增 Voyage 4",
+      "Unsloth 桌面应用正式上线，v0.1.702-beta",
+      "Ollama 新增 DeepSeek Harness，本地启动工具"
+    ],
+    "ai-trending": [
+      "Agent Skills 爆发，Claude 技能仓库霸榜",
+      "diagram-design 单日新增 4504 stars",
+      "Anthropic 官方 skills 仓库正式开放",
+      "NVIDIA Switchyard 日增 408，模型路由工具",
+      "端侧升温：14MB 小模型 needle 上榜",
+      "semantica 登榜，图原生上下文基础设施"
+    ],
+    "ai-web": [
+      "未发布 Claude 将黎曼零点下界提升至 67.2%",
+      "Claude 产出可形式化验证证明，获专家背书",
+      "Anthropic 发布多智能体系统行为风险研究",
+      "OpenAI 新增 CRO Dali Rajic 页面",
+      "OpenAI 发布 Previewing Ultrafast 页面",
+      "Anthropic 以可信 AI 研究为战略标签"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 登 HN 热榜第一，1016 分",
+      "Grok 4.6 发布，测试集污染质疑多过赞美",
+      "Gemini 3.7 Flash 发布，HN 讨论与 DeepSeek 竞争",
+      "Cerebras 加速 GPT-5.6，基础设施重磅",
+      "Codex Linux 桌面预览开放，开发者反响强",
+      "Mistral OCR 4.1 更新，文档解析新选择"
+    ],
+    "ai-arxiv": [
+      "长上下文训练削弱参数化知识，挑战更多上下文",
+      "推理预算从 64 到 4096 token 可反转模型排名",
+      "依赖单一 LLM 模拟器会导致多智能体强化学习塌缩",
+      "系统揭示第三方技能可被恶意劫持",
+      "SCOUT 用结构化思维链提升空间推理能力",
+      "混合线性注意力大规模激活形态被首次刻画"
+    ],
+    "ai-hf": [
+      "Kimi-K3 以 10,620 点赞成为周榜人气王",
+      "DeepSeek-V4-Flash 下载超 140 万",
+      "MiniMax-H3 及衍生模型占热榜三分之一",
+      "Qwen3.8 MoE 新架构，2.4T 总参数",
+      "LiquidAI LFM2.5-2.6B 适合端侧场景",
+      "NVIDIA Nemotron 3.5 Lightning 30B 高效 MoE"
+    ],
+    "ai-community": [
+      "开发者打造 Gatekeeper 拦截 Agent 工具调用",
+      "警示：通过全部测试的 AI 代码最危险",
+      "Agent 记忆系统公平基准被提出",
+      "企业 AI 访问控制转向运行时强制",
+      "Gemma 4 部署 Graviton2+GPU 遇共享内存瓶颈",
+      "用 LLM 做安全评审判官，二次判定漏洞"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.232 adds enterprise session continuity",
+      "OpenAI Codex Rust alpha builds hit v0.148.0-alpha.13",
+      "Gemini CLI v0.56.0 nightly focuses on behavioral eval",
+      "Qwen Code pushes multi-agent fleet coordination",
+      "Copilot CLI and Kimi Code compete on plugin flexibility",
+      "Community demands MCP reliability and Windows support"
+    ],
+    "ai-agents": [
+      "OpenClaw saw 500 issues and 500 PRs in 24 hours",
+      "OpenClaw closed 160 issues and merged 84 PRs",
+      "No OpenClaw release; changes land on main/dev",
+      "Top PR fixes silent reply loss in OpenClaw",
+      "OpenClaw PR #123274 fixes dropped attachment failures",
+      "OpenClaw reliability debt persists in session-state paths"
+    ],
+    "ai-infra": [
+      "vLLM runs DeepSeek-V4 sparse MLA end-to-end on SM120",
+      "llama.cpp ships dense release train b10411 to b10423",
+      "Ollama has llama3.3:70b regression since v0.32.2",
+      "LiteLLM v1.98.0-dev.2 adds cosign image verification",
+      "Unsloth v0.1.702-beta launches Unsloth Desktop",
+      "Serving engines focus on speculative decoding and KV-cache"
+    ],
+    "ai-trending": [
+      "Agent Skills go mainstream; diagram-design +4504 stars",
+      "Anthropic official skills repo gains +383 stars",
+      "Shared-memory workspaces heat up: macro +1180, holaOS +380",
+      "needle: 14MB foundation model targets edge devices",
+      "NVIDIA Switchyard adds portable routing for LLM apps",
+      "RAGFlow stays top RAG; LTX-2 brings open audio-video"
+    ],
+    "ai-web": [
+      "Anthropic: Claude improved Riemann zeta zero bound",
+      "Bound rose from 41.6% to 67.2% on Riemann hypothesis",
+      "Anthropic Frontier Red Team studies multiagent failure",
+      "Benign agent behaviors can compound into systemic failures",
+      "OpenAI published 2 new sitemap pages, metadata only",
+      "No content-level assessment for OpenAI pages"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 tops HN with 1016 points",
+      "Gemini 3.7 Flash draws 549 points, 315 comments",
+      "Grok 4.6 and Mistral OCR 4.1 announced same cycle",
+      "HN debates model choice and coding agent speed",
+      "Security concerns: watermarks, prompt injection in filings",
+      "Sentiment: model abundance plus deployment headaches"
+    ],
+    "ai-arxiv": [
+      "Long-context training undermines LLM parametric knowledge",
+      "LLM rankings shift with inference budget in new study",
+      "Single frozen LLM simulator policies fail to generalize",
+      "Agentic systems move to HPC modernization and enterprise",
+      "RAG gets SQL-aware retrieval and visual KV-cache reuse",
+      "Test-time capability transfer is a practical alternative"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops Hugging Face with 10,620 likes",
+      "DeepSeek-V4-Flash passes 1.43M downloads",
+      "Qwen releases 2.4T-parameter MoE with 95B active",
+      "MiniMax-H3 video ecosystem tops 10M Comfy-Org downloads",
+      "NVIDIA and Unsloth push NVFP4 and GGUF quantization",
+      "LiquidAI LFM2.5-2.6B draws 116,640 downloads"
+    ],
+    "ai-community": [
+      "Dev.to: tool-call gatekeeper keeps AI agents in check",
+      "AI code that passes tests can still hide bugs",
+      "Proposal: fair benchmark for AI agent memory systems",
+      "Lobste.rs: AI digitization destroyed physical books",
+      "OpenAI-Hugging Face incident debated on Lobste.rs",
+      "comma.ai releases new 'chestnut' build"
+    ]
+  }
+}
