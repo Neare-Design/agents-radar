@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.229 正式版发布，Linux 桌面版诉求获 498 赞",
+      "OpenAI Codex rust-v0.148.0-alpha.9 预发布，社区热议 60 秒自动解析",
+      "Gemini CLI v0.56.0-nightly 更新，子代理误报 GOAL 成功引争论",
+      "OpenCode v1.18.17 正式版发布，Zen 配额判定异常讨论热烈",
+      "Qwen Code desktop-v0.2.1 发布，长任务卡死问题受关注",
+      "DeepSeek TUI 更名 CodeWhale，v0.9.6 正式版上线"
+    ],
+    "ai-agents": [
+      "OpenClaw 24 小时涌入 500 Issue、500 PR，关闭率仅 21%",
+      "静默回复失败在 #121058 复发，91 条评论聚焦可靠性",
+      "PR #122850 修复 Matrix 流式回复在替换失败时不可见",
+      "SQLite STRICT 迁移导致崩溃，修复 PR 等待审查",
+      "子代理完成结果静默丢失，多智能体编排稳定性堪忧",
+      "PR 合并率仅 31%，审核和合并环节存在明显瓶颈"
+    ],
+    "ai-infra": [
+      "llama.cpp 24 小时内连发 b10369/b10373/b10375 三版本",
+      "vLLM 与 SGLang 发布后回归集中，出现 9 例高严重度缺陷",
+      "DeepSeek V4 相关缺陷 4 例，新模型接入挑战引擎稳定性",
+      "Ollama v0.32.10-rc1 发布，调整 repeat_penalty 默认值",
+      "LiteLLM 修复 spend log 数据丢失，新增 Parallel AI 接入",
+      "Unsloth 遭遇 Windows/macOS/AMD 平台阻断问题"
+    ],
+    "ai-trending": [
+      "diagram-design 单日涨星 2855，Agent 技能包需求爆发",
+      "agency-agents 单日 +1873，角色化 Agent 团队受热捧",
+      "orca 单日 +1235，并行 Agent 编排成社区新宠",
+      "needle 仅 14MB，端侧模型登顶 Trending",
+      "Kronos 金融领域模型、LTX-2 音视频生成同日上榜",
+      "rtk 用 Rust 实现，号称降低 LLM token 消耗 60-90%"
+    ],
+    "ai-web": [
+      "Anthropic 发布工人再培训计划实证研究综述",
+      "研究显示：再培训每名额成本 1.3 万美元，就业率仅提升 2-3%",
+      "报告指出政府只能回收略超一半的培训投入",
+      "OpenAI 新增'企业如何将 AI 应用于工作'索引页",
+      "OpenAI 新页面暂无正文，仅确认元数据",
+      "两大巨头同日聚焦 AI 经济影响，竞争转向价值验证"
+    ],
+    "ai-hn": [
+      "Muse Glimmer 开源 30B 本地常驻模型，1198 分登顶 HN",
+      "DeepSeek V4 Pro 0813 上线 OpenRouter，HN 排名第一",
+      "Grok 4.6 正式发布，第三方评测仅给 61 分引争议",
+      "研究展示可从专有 LLM API 窃取推理轨迹",
+      "AI 吞噬网页致互联网记忆消失，963 条评论热议",
+      "AI 是否消灭中层软件工程师，632 条评论激辩"
+    ],
+    "ai-arxiv": [
+      "低资源语言安全对齐失效，跨语言安全只是假象",
+      "ASMI 用注意力路径脆弱性作为 LLM 不确定性信号",
+      "新图谱法绘制 6 大模型家族 32 个模型行为演化路径",
+      "数据归因定位引发 LLM 突发越狱的'人格特征'训练样本",
+      "AI 助力数学家改进 Grothendieck 常数上下界",
+      "SkillZip 无需评估即可压缩技能，支持自进化 Agent"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞 10583、下载 156 万，登顶 Hugging Face",
+      "DeepSeek-V4-Flash-0731 下载量突破百万",
+      "MiniMax-H3 原生视频模型带火 LoRA/ComfyUI 衍生包",
+      "Qwen3.8-2.4T-A95B 超大 MoE 上榜，总参数 2.4T",
+      "LiquidAI LFM2.5-2.6B 轻量模型以 582 赞受关注",
+      "NVIDIA Nemotron 3.5 Lightning 提供 BF16 与 NVFP4 双版本"
+    ],
+    "ai-community": [
+      "Dev.to 今日 AI 文章主线：Agent 与本地 AI",
+      "开发者角色转型讨论：从实现到意图与编排",
+      "教程：笔记本上免费用 OpenAI 搭建 RAG 应用",
+      "Agent 插件运行时授权问题引发安全探讨",
+      "日本 200 家 SaaS 仅 41 家通过 AI Agent 就绪评估",
+      "OpenRouter 统一 API Key，多模型切换更简单"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "AI CLI tools shift from features to stability hardening",
+      "Claude Code ships v2.1.229 with infrastructure fixes",
+      "OpenAI Codex rust-v0.148.0-alpha.9 sees 10 PRs",
+      "Gemini CLI v0.56.0-nightly.20260812 released",
+      "OpenCode, Pi, Qwen Code ship new releases",
+      "Tools converge on persistent memory and agent lifecycle"
+    ],
+    "ai-agents": [
+      "OpenClaw: 500 issues and 500 PRs updated in 24h",
+      "104 issues closed, 157 PRs merged/closed in day",
+      "OpenClaw publishes no new release in last 24h",
+      "OpenClaw reliability bugs: silent reply loss",
+      "Subagent completion delivery defects persist",
+      "PR #119988 fixes attach SIGINT shutdown timeout"
+    ],
+    "ai-infra": [
+      "Hybrid models stress vLLM, SGLang, and llama.cpp",
+      "Speculative decoding remains fragile under load",
+      "vLLM v0.27.0 regressions: idle stall, DeepSeek issues",
+      "SGLang Blackwell NVFP4 NaN kills GSM8K score",
+      "LiteLLM token-hash leaks and spend-log drops found",
+      "Ollama SSRF vulnerability raises security concerns"
+    ],
+    "ai-trending": [
+      "diagram-design tops trending with +2,855 stars",
+      "agency-agents surges +1,873 stars",
+      "orca (Stably AI) gains +1,235 stars",
+      "semantica adds graph-native context, +845 stars",
+      "Kronos brings open financial market model",
+      "needle ships 14MB foundation model for edge"
+    ],
+    "ai-web": [
+      "Anthropic: retraining lifts employment 2–3 points",
+      "Retraining boosts earnings ~$1,000 per year",
+      "Worker retraining costs ~$13,000 per person",
+      "Government recovers over half retraining cost",
+      "OpenAI posts 'How Enterprises Put AI To Work'",
+      "Anthropic review covers 56 randomized US studies"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 tops HN with 721 points",
+      "Grok 4.6 launch triggers 390-comment debate",
+      "Meta Muse Glimmer is most upvoted AI post",
+      "Attack steals reasoning traces from LLM APIs",
+      "OpenAI ethics head departure surfaces on HN",
+      "Criminal complaint filed over Meta AI glasses"
+    ],
+    "ai-arxiv": [
+      "Low-resource language safety alignment fails",
+      "ASMI detects overconfident LLM errors",
+      "Agent research shifts to memory compression",
+      "Self-evolving agents tackle long-horizon math",
+      "Sparse-autoencoder features unstable across runs",
+      "Object-level code-switching advances multimodal grounding"
+    ],
+    "ai-hf": [
+      "MiniMax-H3 cluster dominates Hugging Face trends",
+      "DeepSeek-V4-Flash-0731 surpasses 1M downloads",
+      "Kimi-K3 leads likes with 10,583",
+      "Qwen3.8 2.4T MoE gets official FP8",
+      "NVIDIA ships Nemotron 3.5 Lightning variants",
+      "Muse-Glimmer-30B gets immediate GGUF support"
+    ],
+    "ai-community": [
+      "Devs shift from agent hype to guardrails",
+      "15x pricier model was most confidently wrong",
+      "AI coding agents fail hardest on requirements",
+      "Who authorizes agent plugins at runtime?",
+      "Lobste.rs discusses rare-book digitization risks",
+      "OpenAI–Hugging Face incident sparks discussion"
+    ]
+  }
+}
