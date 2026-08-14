@@ -1,0 +1,150 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 日发两版 v2.1.232/233",
+      "OpenAI Codex 连发 5 个 alpha，修复缺陷",
+      "Copilot CLI v1.0.80 发布，企业治理受关注",
+      "Qwen Code 0.21.12 聚焦 Web Shell",
+      "DeepSeek TUI v0.9.8 发布，品牌统一",
+      "Gemini CLI SSR Agent 自动修复 PR"
+    ],
+    "ai-agents": [
+      "OpenClaw 新增 488 issues，仅关闭 12",
+      "OpenClaw 97 PR 合并，403 待处理",
+      "消息静默丢失与 Gateway 内存泄漏高发",
+      "社区不满 issue 关闭后仍复现，信任度走低",
+      "PR #121299 热重载优化，消除 O(N) 阻塞",
+      "PR #121081 拒绝过期 worker bundle"
+    ],
+    "ai-infra": [
+      "llama.cpp 日发 10 版，SYCL/RPC P0",
+      "Ollama 发 v0.32.12，官方支持 Qwen3.8",
+      "Unsloth 支持 Qwen3.8 27B，17GB 可跑",
+      "vLLM/SGLang 修 DeepSeek-V4 正确性",
+      "Kimi-K3 获 vLLM/SGLang 双端支持",
+      "LiteLLM 无新功能，专注回归与安全修复"
+    ],
+    "ai-trending": [
+      "diagram-design 单日 +3651 星",
+      "semantica 单日 +1183 星，上下文层走红",
+      "holaOS 单日 +769 星，Agent 工作台形态",
+      "rtk 用 Rust CLI 省 60-90% token",
+      "headroom 压缩上下文，JSON 场景省 95%",
+      "needle：14MB 端侧模型，单日 +661 星"
+    ],
+    "ai-web": [
+      "Anthropic 详解文本水印，直指 EU AI Act",
+      "水印不增 token、不改质量，不含个人身份",
+      "多家 AI 厂商签署行为准则，水印或成通用设施",
+      "Anthropic 再培训结论：56 项实验，回收率 52%",
+      "再培训有效但有限，Anthropic 算出 52% 回收率",
+      "OpenAI 零新增，Anthropic 主攻合规与研究"
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro 0813 登顶 HN",
+      "GLM-5.3 宣称涌现网络能力，501 评论激辩",
+      "Gemini 3.7 Flash 发布，946 分引热议",
+      "Google 同态加密落地 AI 推理，隐私计算关注",
+      "Codex Linux 桌面预览上线，开发者生态扩展",
+      "OpenAI 人才流失被指 IPO 前危险信号"
+    ],
+    "ai-arxiv": [
+      "OmniScientist 打通全学科科研闭环，从假设到稿件",
+      "Intern-S2-Preview 发布科学智能体基础模型",
+      "Vero 让 AI 编程同时产出形式化证明",
+      "Synthetic Persona 预训练期注入对齐",
+      "LittleLearner 用 88B 课程语料做实验",
+      "DARTree 与 RMM 分别降低推理成本"
+    ],
+    "ai-hf": [
+      "Kimi-K3 周点赞破万，下载 197 万登顶",
+      "MiniMax-H3 衍生量化版下载超千万",
+      "Qwen3.8-2.4T-A95B 发布，95B 激活",
+      "DeepSeek-V4-Flash 下载破 160 万",
+      "DeepSeek-V4-Pro-0813 发布获 431 赞",
+      "Nemotron 3.5 Lightning 开放，主攻推理"
+    ],
+    "ai-community": [
+      "Dev.to 热议：向量数据库撑不起持久记忆",
+      "没人审计 OpenAI 账单，开发者直击成本黑洞",
+      "AI 辅助复活 Weave Scope，一个下午搞定多架构",
+      "Gemma 4 跑通 EC2 G5g，aarch64 有坑",
+      "非程序员把作品集改成 MCP 服务器",
+      "Lobste.rs 关注 OpenAI 与 HF 安全事件"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code shipped two stable releases in 24h.",
+      "OpenAI Codex published five alpha builds.",
+      "Gemini CLI had 16 active PRs including SSR-agent.",
+      "Copilot CLI released v1.0.80 and v1.0.80-1.",
+      "Kimi Code CLI dormant but users demand persistent memory.",
+      "Grok Build only tracked tool with no activity."
+    ],
+    "ai-agents": [
+      "OpenClaw: 488 open issues, 403 open PRs.",
+      "97 PRs merged/closed in last 24 hours.",
+      "12 issues closed; no new releases.",
+      "Silent reply failures and gateway memory leaks persist.",
+      "Security PR #123878 skips unused default workspace.",
+      "Community contributions strong but P0/P1 wait on review."
+    ],
+    "ai-infra": [
+      "DeepSeek-V4 and Kimi-K3 dominate vLLM/SGLang work.",
+      "vLLM has unresolved silent retrieval corruption on MI325X.",
+      "SGLang lacks fix for sparse-attention crash on long context.",
+      "llama.cpp shipped 11 releases (b10425-b10435).",
+      "Ollama released v0.32.11-13 with Qwen3.8 support.",
+      "Unsloth shipped Qwen3.8 and MiniMax support."
+    ],
+    "ai-trending": [
+      "diagram-design skill gained +3,651 stars today.",
+      "Semantica graph memory project added +1,183 stars.",
+      "Needle: 14MB foundation model for tiny devices, +661 stars.",
+      "Unsloth trending with +502 stars across models.",
+      "Ollama now supports Kimi-K2.6, GLM-5.2, MiniMax.",
+      "Firecrawl context API powers LLM research pipelines."
+    ],
+    "ai-web": [
+      "Anthropic details Claude text watermarking for EU AI Act.",
+      "Watermarking claims no quality, cost, or token impact.",
+      "Anthropic review: retraining programs modest gains.",
+      "Government recovers over half of retraining costs.",
+      "OpenAI had no new content in this crawl.",
+      "Claude watermark helps determine AI-written text likelihood."
+    ],
+    "ai-hn": [
+      "DeepSeek V4 Pro scores 1,027 on HN.",
+      "GLM-5.3 claims cyber capabilities, sparks debate.",
+      "Gemini 3.7 Flash draws near-1,000 HN score.",
+      "HN split on benchmark credibility and safety.",
+      "Privacy-preserving inference and local WebGPU agents resonate.",
+      "Builders push practical tooling over vendor benchmarks."
+    ],
+    "ai-arxiv": [
+      "Synthetic Persona Pretraining aligns LLMs from token zero.",
+      "VC classes robustly learnable with linear sample complexity.",
+      "LittleLearner introduces 88B-token pedagogically curated corpus.",
+      "Papers converge on long-horizon agentic systems.",
+      "Speculative decoding and matrix-product reduction cut costs.",
+      "Clinical forecasting and crystal generation show domain models."
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops HF with 10,670 likes.",
+      "Qwen3.8-27B lands 8,910 likes pre-release.",
+      "MiniMax-H3 Comfy-Org packaging hits 11.7M downloads.",
+      "DeepSeek-V4-Flash has 1.6M downloads.",
+      "Qwen 2.4T-A95B sparse MoE trending flagship.",
+      "FP8, NVFP4, GGUF quant formats across families."
+    ],
+    "ai-community": [
+      "Vector databases alone aren't durable memory, dev argues.",
+      "aarch64 shared-memory wall highlights infra limits.",
+      "OpenAI–Hugging Face incident reported on Lobste.rs.",
+      "FinOps anxiety: nobody audits their OpenAI invoice.",
+      "MCP gains traction as lightweight integration layer.",
+      "DeepSeek ignoring token limits and eval bugs noted."
+    ]
+  }
+}
