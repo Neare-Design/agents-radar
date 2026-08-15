@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code会话续跑issue获197赞，社区呼声最高",
+      "OpenAI Codex发布rust-v0.148.0-alpha.19版本",
+      "Gemini CLI更新量断层领先，P1 bug密集受关注",
+      "GitHub Copilot CLI发布v1.0.81-0版本",
+      "Kimi Code CLI长期呼吁跨会话记忆系统",
+      "Qwen Code发v0.21.11-nightly，DeepSeek TUI密集修复"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.8.1-beta.2，新增GPT-5.6 Ultra支持",
+      "Secret egress host binding安全加固，防明文泄露",
+      "安装策略警告确认机制PR合并，CLI+UI双端落地",
+      "过去24小时500 Issue和500 PR，448个待合并",
+      "DeepSeek/Claude等多后端消息处理bug集中报告",
+      "memory_search死锁与Telegram富文本修复待合并"
+    ],
+    "ai-infra": [
+      "llama.cpp合入Kimi-K3完整混合架构，速度第一",
+      "vLLM 0.27升级后DeepSeek-V4-Flash闪崩",
+      "SGLang在多模型上现静默正确性错误，风险高",
+      "Ollama发布v0.32.14-rc0，支持WebP转码",
+      "LiteLLM三份安全审计报告关闭待修复",
+      "DeepSeek-V4-Flash、Kimi-K3、Qwen3.8同日登场"
+    ],
+    "ai-trending": [
+      "cursor/plugins官方插件规范登榜，AI IDE生态平台化",
+      "needle以14MB基础模型切入微型设备受关注",
+      "Soup可在4GB笔记本GPU流式微调8B模型",
+      "ollama 178k stars稳居AI工具第一",
+      "rtk Rust版token削减代理可省60-90%消耗",
+      "Claude Code生态skill与上下文持久化成新增量"
+    ],
+    "ai-web": [
+      "Anthropic发布多智能体系统风险研究，预测交互超人类",
+      "研究点名confabulation和reward hacking主要风险",
+      "Anthropic公开Claude文本水印技术细节",
+      "水印机制为响应欧盟AI法案内容标记要求",
+      "Anthropic新增2篇内容，OpenAI今日零更新",
+      "多智能体研究由前沿红队主导，具战略意义"
+    ],
+    "ai-hn": [
+      "GLM-5.3登HN榜首，1134分558评引爆争论",
+      "Gemini 3.7 Flash发布，获960分487评",
+      "Cerebras加速GPT-5.6 Sol，705分引热议",
+      "Google同态加密让私有AI实用化，获477分",
+      "LLM生成GPU内核合约级验证器论文上arXiv",
+      "社区对突现能力措辞与厂商评测普遍持怀疑"
+    ],
+    "ai-hf": [
+      "Kimi-K3周赞10722居榜首，下载超210万",
+      "DeepSeek-V4-Flash下载近180万，单模型最高",
+      "Qwen3.8-27B以9762赞居多模态第二",
+      "Qwen3.8-2.4T-A95B超大MoE模型发布",
+      "MiniMax-H3生态爆发，ComfyUI版下载破千万",
+      "LiquidAI LFM2.5-2.6B主打低资源高效推理"
+    ],
+    "ai-community": [
+      "4200次试验验证AI Agent可靠性，响应≠完成",
+      "文章指出AI Agent记忆问题本质是信任问题",
+      "Qwen3.8-2.4T vLLM部署指南获工程团队关注",
+      "AI徽章不能准确衡量内容引发合规讨论",
+      "LLM评估强调不能只看感觉，需用eval set",
+      "语音智能体与低门槛本地部署成Dev.to新热点"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "9 of 10 CLI tools active; Qwen Code leads issues/PRs",
+      "Gemini CLI shipped a CVSS 8.6 SSRF fix",
+      "Codex, Gemini, Qwen ship nightly/alpha releases",
+      "Claude Code, OpenCode, Pi in stabilization window",
+      "Trackers focus on sessions, OAuth, correctness",
+      "Shift from model access to operational trust"
+    ],
+    "ai-agents": [
+      "OpenClaw shipped beta with secret egress host binding",
+      "OpenClaw adds GPT-5.6 Ultra runtime switching",
+      "500 issues and 500 PRs updated in 24h",
+      "20 issues closed; 52 PRs merged/closed",
+      "Memory-core reliability and gateway stability fixes",
+      "P0 billing-cooldown bug remains open"
+    ],
+    "ai-infra": [
+      "llama.cpp active with 9 new builds",
+      "vLLM, SGLang, LiteLLM, Unsloth had no releases",
+      "Silent-correctness bugs flag unsafe production combos",
+      "Speculative decoding and structured-output failures persist",
+      "Ollama v0.32.14-rc0 shipped",
+      "DeepSeek-V4-Flash, Kimi-K3 strain kernel layers"
+    ],
+    "ai-trending": [
+      "diagram-design adds +1,619 stars today",
+      "CLI-Anything aims to make every CLI agent-controllable",
+      "ego-lite is a browser built for AI agents",
+      "needle ships a 14MB foundation model",
+      "Soup fine-tunes an 8B model on a 4GB laptop GPU",
+      "unsloth adds Qwen3.8, Kimi K3, DeepSeek-V4, and FLUX"
+    ],
+    "ai-web": [
+      "Anthropic publishes multiagent systems research",
+      "Paper warns agent traffic may exceed human traffic",
+      "Anthropic details Claude's text watermarking",
+      "Watermarking has zero cost and zero token overhead",
+      "Second piece tied to EU AI Act compliance",
+      "OpenAI had no new content in this crawl"
+    ],
+    "ai-hn": [
+      "GLM-5.3 hits 1,134 points, 558 comments",
+      "Gemini 3.7 Flash draws 960 points",
+      "Cerebras-OpenAI collaboration to accelerate GPT-5.6",
+      "Claude Code session guidance sparks discussion",
+      "Working with AI feels like leadership essay",
+      "Security concerns include prompt injections and PR manipulation"
+    ],
+    "ai-hf": [
+      "Kimi-K3 tops likes with 10,722",
+      "Qwen3.8-27B follows with 9,762 likes",
+      "MiniMax-H3 Comfy-Org hits 12.79M downloads",
+      "DeepSeek-V4-Flash sees 1.79M downloads",
+      "NVIDIA Nemotron 3.5 Lightning refreshes text generation",
+      "Heavy quantization and fine-tuning activity around Qwen"
+    ],
+    "ai-community": [
+      "EU AI Act 'AI badge' transparency criticized",
+      "Deploying Qwen3.8-2.4T-A95B with vLLM guide",
+      "10-day multilingual voice agents for India showcased",
+      "OpenAI–Hugging Face incident discussed on Lobsters",
+      "Latent reasoning interpretability research shared",
+      "Community shifts from demos to testing and governance"
+    ]
+  }
+}
