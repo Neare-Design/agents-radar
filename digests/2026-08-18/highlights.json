@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 消息队列模式获198赞，成社区最高呼声",
+      "OpenAI Codex 发布 alpha 版，新增 codex queue 消息提交",
+      "Gemini CLI 发布 v0.56.0-nightly，更新频繁",
+      "Copilot CLI 现恶意 PR，试图删除 README 文档",
+      "Qwen Code 发布 v0.21.13，自动化 review 管线成型",
+      "多工具同日爆 10GB 级内存膨胀，稳定性亮红灯"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时涌入500 Issue/500 PR，维护端承压",
+      "停止打印可复用 Gateway Token，防泄露入终端日志",
+      "修复插件扫描静默丢弃损坏清单，避免配置丢失",
+      "维护者 Agent 24小时不干预观察日志成热议焦点",
+      "Codex Hook 高 CPU 进程阻塞 Gateway RPC，列最高优先级",
+      "持久进度卡跨 Web/桌面/iOS/Android 四端统一"
+    ],
+    "ai-infra": [
+      "llama.cpp 连发四个版本，AMD APU 修复为主",
+      "vLLM 预发布 CUDA 13.4/sm_107 Rubin 镜像",
+      "Ollama 集中排查 qwen3.8 问题与 v0.32.14 回归",
+      "SGLang 重构配置系统，DeepSeek-V4 问题集中",
+      "Gemma4 官方镜像启动失败，新模型兼容遭质疑",
+      "Kimi-K3 ROCm 路线图启动，新硬件支持成竞赛焦点"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo 单日涨星1275，领跑今日热榜",
+      "AI 安全/红队工具首次集中登榜，Agent 安全需求爆发",
+      "llmfit 一条命令探测硬件可跑模型，今日新增239星",
+      "ai-memory 走红：解决 Agent 长期记忆与跨厂商交接",
+      "Ollama 星数17.8万，稳居本地推理事实标准",
+      "rtk 星数7.6万，可省 60-90% 的 LLM token 消耗"
+    ],
+    "ai-hn": [
+      "Wiz 披露 Copilot Autofix 可攻破 Snowflake Jira",
+      "Roboflow 评 GPT-5.6 Sol 为 OpenAI 最强视觉模型",
+      "Qwen3.8 27B 开源模型 AI 评测得 52 分",
+      "Stripe 收购 OpenRouter，社区担忧资本垄断",
+      "Nvidia 缩减 OpenAI 融资，AI 资本风险引关注",
+      "Anthropic 文本水印与打压开源指控引发辩论"
+    ],
+    "ai-hf": [
+      "Kimi-K3 多模态登顶，周点赞破万下载超216万",
+      "Qwen3.8-27B 周点赞10698，开源热度爆棚",
+      "DeepSeek-V4-Flash 下载近200万，轻量部署刚需",
+      "MiniMax-H3 视频生态爆发，衍生多款变体",
+      "Qwen3.8-2.4T-A95B 旗舰开源 MoE 破千赞",
+      "多款 Qwen GGUF 下载超200万，量化是刚需"
+    ],
+    "ai-community": [
+      "AI 编码核心风险：不理解你交付的代码",
+      "MCP eval 科普：过测试仍失败的真实排查法",
+      "演示 CI 捕获 Agent 忽略失败工具调用的方法",
+      "医疗数据六陷阱：专家建议别给模型 SQL 权限",
+      "模型退役快过操作系统，架构需建抽象层",
+      "开发者故意构建说谎 MCP server 演示检测法"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code ships v2.1.234 reliability update",
+      "OpenCode iterates fastest on feature surface",
+      "Users ask for queueing, not interrupting agents",
+      "MCP lifecycle fixes dominate AI CLI work",
+      "Subagent truthfulness is top reliability focus",
+      "Gemini CLI moves to nightly release cadence"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues and 500 PRs in 24h",
+      "OpenClaw merges 98 PRs, no new release",
+      "Session reliability and provider auth are top issues",
+      "Memory/context bloat remains a key OpenClaw concern",
+      "Maintainer-review backlog grows on OpenClaw",
+      "Control UI/UX polish is a concentrated pain point"
+    ],
+    "ai-infra": [
+      "llama.cpp ships four releases b10455 to b10472",
+      "Speculative decoding is top vLLM/SGLang regression source",
+      "vLLM and SGLang report illegal memory access bugs",
+      "AMD/ROCm/XPU enablement advances across infrastructure stack",
+      "Agentic workloads expose reasoning-token leaks and retry hangs",
+      "LiteLLM gateway sees budget-enforcement bypass reports"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo gains +1,275 stars today",
+      "Strix for AI agent security adds +656 stars",
+      "ai-memory and claude-mem target agent context",
+      "llmfit solves which model fits your hardware",
+      "omlx brings Mac menu-bar LLM server to Apple Silicon",
+      "Anthropic cybersecurity skills map to NIST/MITRE"
+    ],
+    "ai-hn": [
+      "Claude text-watermarking sparks 'perversion of writing' debate",
+      "GitHub Copilot Autofix linked to Snowflake compromise",
+      "Stripe reportedly buys OpenRouter for $7B+",
+      "GPT-5.6 Sol called OpenAI's best vision model",
+      "Qwen3.8 27B scores 52 on Artificial Analysis",
+      "HN debates AI credit resale economy"
+    ],
+    "ai-hf": [
+      "Qwen3.8-27B dominates multimodal chat with 10.7K likes",
+      "MiniMax-H3 video model passes 14M downloads via Comfy-Org",
+      "DeepSeek-V4-Flash approaches 2M downloads",
+      "Kimi-K3 tops text models with 10,800 likes",
+      "Qwen3.8 official FP8 and NVFP4 quantizations released",
+      "Community GGUF and uncensored Qwen3.8 variants appear"
+    ],
+    "ai-community": [
+      "Dev.to: Know what AI code actually ships, not tests",
+      "MCP evals: servers pass tests but still fail",
+      "OpenAI Assistants API shutdown causing migration pain",
+      "Rare-book shipment traced to Amazon AI training facility",
+      "Prompt-cache invalidation costs irk developers",
+      "Lobste.rs probes AI limits and interpretability"
+    ]
+  }
+}
